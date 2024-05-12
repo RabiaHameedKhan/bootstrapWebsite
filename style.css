@@ -1,0 +1,189 @@
+body{
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20210708/pngtree-fluid-abstract-milk-coffee-color-milk-tea-color-background-image_737292.jpg);
+
+}
+/* navbar */
+.navbar {
+    background-color: #7B3F00;
+    
+  }
+  .navbar-brand img {
+    max-height: 100px;
+  }
+.title{
+    color: white;
+    font-size: 45px;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 1px 3px 4px black;
+  }
+
+  .navbar-nav .nav-link{
+    color: white !important;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 3px 4px black;
+  }
+  .nav-link:hover{
+    text-decoration: underline;
+    font-size: 26px;
+    
+    
+  }
+
+  .nav-item .dropdown-item{
+    color: #7B3F00 !important;
+    font-weight: bolder;
+  }
+  .dropdown-item:hover{
+    background-color: #7B3F00 ;
+    color: white !important;
+  }
+  /* navbar */
+
+  .marque{
+    color:#7B3F00;
+    font-weight: bold;
+    text-shadow: 1px 3px 4px blanchedalmond;
+  }
+
+  .carousel{
+    margin-top: -70px;
+    height: 20%;
+  }
+
+  /* card */
+  .coffee-card {
+    width: 100%;
+    max-width: 300px; 
+    margin-bottom: 20px;
+  }
+
+  .card{
+    margin-top: 40px;
+  }
+
+  .card-body{
+    text-align: center;
+  }
+  
+
+  .card-button{
+    background-color: #7B3F00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .card-button:hover{
+    background-color: #c26706;
+    color: white
+  }
+  .centered-button:hover{
+    background-color: #c26706;
+    color: white
+
+  }
+  
+
+  /* footer */
+  .footer{
+    background-color: #7B3F00;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+
+.fa-facebook,.fa-twitter,.fa-whatsapp,.fa-instagram,.fa-youtube{
+    font-size: 30px !important;
+    margin-right: 2px;
+    text-align: right;
+    color: white;
+}
+
+.last{
+    background-color: black;
+    color: white;
+}
+
+.centered-button-container{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.centered-button-container button{
+    background-color: #7B3F00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* About css */
+.about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about p{
+    color: #7B3F00;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;   
+}
+/* contact css */
+
+.contact{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.contact-card{
+    background-color: #7B3F00;
+    color: white;
+    padding: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px; 
+    margin: auto; 
+}
+input[type="text"],
+textarea {
+    margin-bottom: 10px; 
+    padding: 8px; 
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none; 
+    background-color: #7B3F00; 
+    color: #fff; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+button[type="submit"]:hover {
+    background-color: #c26706;
+}
